@@ -24,7 +24,7 @@ class FieldObservationDetailViewController: UIViewController {
 
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .medium
-        
+        self.title = "Event"
         fieldIconImageView.image = fieldObservation?.type.image
         TitleLabel.text = fieldObservation?.title
         

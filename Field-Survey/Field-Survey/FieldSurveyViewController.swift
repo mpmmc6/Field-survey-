@@ -17,7 +17,7 @@ class FieldSurveyViewController: UIViewController, UITableViewDelegate, UITableV
         super.viewDidLoad()
         dateFormatter.dateStyle = . medium
         dateFormatter.timeStyle = .medium
-        
+        self.title  = "Field observation"
         // Do any additional setup after loading the view.
     }
 
